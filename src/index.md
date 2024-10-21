@@ -3,10 +3,10 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  icon: 🛠️
+  name: "砚花庭:JE" 
+  text: "插件使用文档"
+  tagline: "砚花庭:JE-1.21.1 服务器插件使用文档"
+  icon: 🌟
   image:
     src: ./bg.svg
     alt: Banner
@@ -19,11 +19,17 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🛠️
+    title: Responsive Design
+    details: Ensure a consistent experience across devices.
+    linkText: Explore
+    link: #
+  - icon: 🧩
+    title: Seamless Integration
+    details: Integrate seamlessly with your VitePress projects.
+    link: #
+  - icon: 🎨
+    title: Customizable Theming
+    details: Tailor the theme to suit your project's needs.
 ---
 
