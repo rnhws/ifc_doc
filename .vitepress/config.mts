@@ -17,8 +17,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '季节系统', link: '/seasons/#' }
     ],
 
     search: {
@@ -27,10 +27,22 @@ export default defineConfigWithTheme<ThemeConfig>({
     
     sidebar: [
       {
-        text: 'Examples',
+        text: '服务器详情',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Work In Progress', link: '#' },
+        ]
+      },
+      {
+        text: 'RealisticSeasons',
+        items: [
+          { text: '季节系统', link: '/seasons/#' },
+        ]
+      },
+      {
+        text: '写作格式示例',
+        items: [
+          { text: 'Markdown', link: '/markdown-examples' },
+          { text: 'Runtime API', link: '/api-examples' }
         ]
       }
     ],
@@ -42,17 +54,23 @@ export default defineConfigWithTheme<ThemeConfig>({
     },
 
 
-    editLink: {
-      pattern: 'https://github.com/brenoepics/vitepress-carbon/edit/main/demo/src/:path',
-      text: 'Edit this page on GitHub'
-    },
+    //editLink: {
+      //pattern: 'https://github.com/brenoepics/vitepress-carbon/edit/main/demo/src/:path',
+      //text: 'Edit this page on GitHub'
+    //},
 
     lastUpdated: {
       formatOptions: { dateStyle: 'short', timeStyle: 'short' }
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/brenoepics/vitepress-carbon' }
-    ]
+    //socialLinks: [
+      //{ icon: 'github', link: 'https://github.com/brenoepics/vitepress-carbon' }
+    //]
+
+    footer: {
+      message: `Join our <a href="https://qm.qq.com/q/puJ6VONMSQ">QQ-Group</a> | 点击 <a href="https://qm.qq.com/q/puJ6VONMSQ">此处</a> 加入我们的QQ群 `,
+      copyright:
+        'Copyright © 2024 <a href="https://github.com/RainyHallways">RainyHallways/雨廊</a> & 砚花庭(IFC) 服务器,All Rights Reserved.',
+    },
   }
 })

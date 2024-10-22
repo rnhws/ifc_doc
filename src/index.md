@@ -12,11 +12,11 @@ hero:
     alt: Banner
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /seasons/#
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 加入QQ群
+      link: https://qm.qq.com/q/puJ6VONMSQ
 
 features:
   - icon: 🛠️
@@ -24,10 +24,11 @@ features:
     details: Ensure a consistent experience across devices.
     linkText: Explore
     link: #
-  - icon: 🧩
-    title: Seamless Integration
-    details: Integrate seamlessly with your VitePress projects.
-    link: #
+  - icon: 🍂
+    title: 季节系统
+    details: 我们使用了 RealisticSeasons 插件为您提供服务器内的季节变化!
+    linkText: 查看文档
+    link: seasons
   - icon: 🎨
     title: Customizable Theming
     details: Tailor the theme to suit your project's needs.
